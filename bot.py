@@ -24,8 +24,9 @@ from api_handler import CoWin
 
 load_dotenv()
 
-API_SECRET = os.getenv("API_SECRET")
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+API_ID = os.getenv("API_ID", "32151712")
+API_HASH = OS.getenv("API_HASH", "20e1afd6d2c34be4b8e09ddcef5f20fa")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8645164925:AAF-9-AkDmIcQBrCTk17rgHi2hCJQfXRpPU")
 
 logging.basicConfig(level=logging.INFO)
 
